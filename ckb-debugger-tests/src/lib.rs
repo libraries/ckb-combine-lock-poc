@@ -1,6 +1,8 @@
 pub mod auto_complete;
 pub mod global_registry;
 pub mod hash;
+#[cfg(test)]
+mod test;
 
 use anyhow;
 use anyhow::Context;

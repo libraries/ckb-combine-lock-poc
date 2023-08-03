@@ -6,14 +6,15 @@ version = "0.1.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ckb-debugger-api = { git = "https://github.com/nervosnetwork/ckb-standalone-debugger.git", rev="1a66c03" }
-ckb-mock-tx-types =  { git = "https://github.com/nervosnetwork/ckb-standalone-debugger.git", rev="1a66c03" }
+ckb-debugger-api = { git = "https://github.com/nervosnetwork/ckb-standalone-debugger.git", rev="75e81f9" }
+ckb-mock-tx-types =  { git = "https://github.com/nervosnetwork/ckb-standalone-debugger.git", rev="75e81f9" }
 ckb-combine-lock-types = { path = "../crates/types", default-features = false, features = ["std"] }
+ckb-script = "=0.111.0-rc8"
 molecule = { version = "0.7.3", default-features = false }
-ckb-hash = "=0.108.1"
-ckb-jsonrpc-types = "=0.108.1"
-ckb-types = "=0.108.1"
-ckb-crypto = "=0.108.1"
+ckb-hash = "=0.111.0-rc8"
+ckb-jsonrpc-types = "=0.111.0-rc8"
+ckb-types = "=0.111.0-rc8"
+ckb-crypto = "=0.111.0-rc8"
 env_logger = "0.4.3"
 anyhow = "1.0.70"
 lazy_static = "1.4.0"
